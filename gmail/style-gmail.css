@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+
+.header {
+    background-color: gray;
+    height: 100px;
+    width: 100vw;
+}
+
+.left {
+    background-color: rgba(132, 233, 216, 0.863);
+    height: 100vh;
+}
+
+.main {
+    background-color: rgb(252, 255, 47);
+}
+
+.right {
+    background-color: indigo;
+}
+
+.row {
+    height: 80px;
+    border: 2px dashed black;
+    margin-bottom: .2rem;
+}
+
+.left-row {
+    height: 50px;
+    border: 2px dashed black;
+    margin-bottom: .2rem;
+}
+
+.right-row {
+    height: 120px;
+    border: 2px dashed black;
+    margin-bottom: .2rem;
+}

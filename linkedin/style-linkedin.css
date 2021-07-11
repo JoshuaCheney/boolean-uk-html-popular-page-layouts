@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr auto 1fr;
+    background-color: rgb(172, 170, 170);
+    height: 100vh;
+    gap: 20px;
+}
+
+.header {
+    background-color: white;
+    width: 100vw;
+    height: 60px;
+    border: 2px dashed black;
+}
+
+.left {
+    background-color: white;
+    height: 100vh;
+    width: 300px;
+    border: 2px dashed black;
+    margin-top: 1rem;
+}
+
+.middle {
+    height: 100vh;
+    width: 600px;
+    background-color: white;
+    border: 2px dashed black;
+    margin-top: 1rem;
+}

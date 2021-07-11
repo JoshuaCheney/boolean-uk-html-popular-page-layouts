@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.three-column-grid {
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+} 
+
+.server-list {
+    background-color: darkcyan;
+    height: 100vh;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px 5px 5px;
+    border: 2px dashed black;
+}
+
+.channels {
+    background: cadetblue;
+    height: 100vh;
+}
+
+.channel {
+    width: 140px;
+    height: 30px;
+    border: 2px dashed black;
+    margin-bottom: 1rem;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 15px;
+    background-color: coral;
+    height: 60px;
+}
+
+.header-icon {
+    height: 50px;
+    width: 50px;
+    border: 2px dashed black;
+}
+
+.channel-name {
+    width: 200px;
+    height: 50px;
+    border: 2px dashed black;
+}
+
+.long-icons {
+    width: 500px;
+    height: 50px;
+    border: 2px dashed black;
+}
+
+.blank {
+    height: 90vh;
+    border: 2px dashed black;
+}
+
+.text-bar {
+    background-color: coral;
+    height: 69px;
+}
